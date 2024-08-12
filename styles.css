@@ -1,5 +1,19 @@
+@media screen and (max-width: 480px){
+    
 div.wrapper {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 1rem;
 }
 
+section.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-image {
+    width: 100%;
+    height: auto;
+}
+
+}
